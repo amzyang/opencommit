@@ -6,6 +6,7 @@ import currentPackage from '../../package.json';
 import { getOpenCommitLatestVersion } from '../version';
 
 export const checkIsLatestVersion = async () => {
+  return;
   const latestVersion = await getOpenCommitLatestVersion();
 
   if (latestVersion) {
